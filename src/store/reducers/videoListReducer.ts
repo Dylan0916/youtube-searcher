@@ -27,7 +27,8 @@ export const videoListReducer = produce((draft, action) => {
     }
     case getType(getVideoListAction.success): {
       const { data } = action.payload as GetVideoListSuccessPayload;
-      const newData = data.items.map(item => item?.id?.videoId);
+      const items = data?.items || [];
+      const newData = items.map(item => item?.id.videoId);
 
       draft.videoList = newData;
       draft.isLoading = false;

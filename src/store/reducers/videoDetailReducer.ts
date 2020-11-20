@@ -18,12 +18,13 @@ export const videoDetailReducer = produce((draft, action) => {
   switch (action.type) {
     case getType(getVideoListAction.success): {
       const { data } = action.payload as GetVideoListSuccessPayload;
-      const newData = data.items.reduce((acc, cur) => {
-        const videoId = cur?.id?.videoId;
+      const items = data?.items || [];
+      const newData = items.reduce((acc, cur) => {
+        const videoId = cur.id.videoId;
 
         return {
           ...acc,
-          [videoId]: cur?.snippet,
+          [videoId]: cur.snippet,
         };
       }, {});
 
