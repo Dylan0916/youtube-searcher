@@ -1,0 +1,692 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "G86ZpE6tMirBYzzZTH3MGu3QvPE",
+  "nextPageToken": "CBQQAA",
+  "regionCode": "TW",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 20
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OznD5zfYHY97noPDFfurylm0k0A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OHH-RASjWTA"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-20T02:00:38Z",
+        "channelId": "UCwobzUc3z-0PrFpoRxNszXQ",
+        "title": "🔴 Deep Sleep Music 24/7, Calm Music, Sleep Meditation, Insomnia, Relaxing Music, Study Music, Sleep",
+        "description": "Get the new Yellow Brick Cinema iOS app for a 7-day FREE trial: https://apple.co/30uHqHe Deep Sleep Music 24/7, Calm Music, Sleep Meditation, Insomnia, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OHH-RASjWTA/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OHH-RASjWTA/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OHH-RASjWTA/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Yellow Brick Cinema - Relaxing Music",
+        "liveBroadcastContent": "live",
+        "publishTime": "2020-11-20T02:00:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "N2kfJi7_nkFJnV7BlrLkPq3R1vQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1ZYbU82GVz4"
+      },
+      "snippet": {
+        "publishedAt": "2016-07-03T17:09:48Z",
+        "channelId": "UCjzHeG1KWoonmf9d5KBvSiw",
+        "title": "Relaxing Sleep Music: Deep Sleeping Music, Relaxing Music, Stress Relief, Meditation Music ★68",
+        "description": "Relaxing sleep music for deep sleeping and stress relief. Fall asleep to beautiful nature videos and use the relaxing music (\"Flying\" by Peder B. Helland) as ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1ZYbU82GVz4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1ZYbU82GVz4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1ZYbU82GVz4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Soothing Relaxation",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-07-03T17:09:48Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-DN4ys36mG_0EYDiJ3riEWYKf_s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IfIIFKz2j-E"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-20T11:56:49Z",
+        "channelId": "UCwobzUc3z-0PrFpoRxNszXQ",
+        "title": "🔴 Relaxing Music 24/7, Meditation Music, Zen, Yoga, Healing Music, Sleep, Study Music, Calm Music",
+        "description": "Get the new Yellow Brick Cinema iOS app for a 7-day FREE trial: https://apple.co/30uHqHe Relaxing Music 24/7, Meditation Music, Zen, Yoga, Healing Music, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IfIIFKz2j-E/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IfIIFKz2j-E/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IfIIFKz2j-E/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Yellow Brick Cinema - Relaxing Music",
+        "liveBroadcastContent": "live",
+        "publishTime": "2020-11-20T11:56:49Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3DfPKpOt6Oldn58Ts3Aidb3-1bk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rulvcTfez5w"
+      },
+      "snippet": {
+        "publishedAt": "2019-04-30T15:50:34Z",
+        "channelId": "UCjzHeG1KWoonmf9d5KBvSiw",
+        "title": "10 Hours of Deep Sleep Music - Relaxing Music for Sleeping &amp; Meditation by Soothing Relaxation",
+        "description": "10 hours of deep sleep music that hopefully will help you to fall asleep. Relaxing music for sleeping and meditation composed by Peder B. Helland for Soothing ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rulvcTfez5w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rulvcTfez5w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rulvcTfez5w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Soothing Relaxation",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-04-30T15:50:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5pO5qGQfaMrDOt-1RxvV87_NuSQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bn9F19Hi1Lk"
+      },
+      "snippet": {
+        "publishedAt": "2020-03-26T01:04:56Z",
+        "channelId": "UCNjGqISO6V2WFpOFWPC8pIw",
+        "title": "Sleep For 11 Hours Straight, High Quality Stereo Ocean Sounds Of Rolling Waves For Deep Sleeping",
+        "description": "A wonderful experience of sleeping beside the ocean with waves rolling next to your bed. High quality stereo ocean sounds, better than any sleep music will ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bn9F19Hi1Lk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bn9F19Hi1Lk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bn9F19Hi1Lk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Naturaleza Viva - Sonidos y Paisajes Increíbles",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-03-26T01:04:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BmN_DLZXrEOtWCKEM-xckjqxc4c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "txQ6t4yPIM0"
+      },
+      "snippet": {
+        "publishedAt": "2014-06-22T17:50:28Z",
+        "channelId": "UCwobzUc3z-0PrFpoRxNszXQ",
+        "title": "8 Hour Deep Sleep Music: Delta Waves, Relaxing Music Sleep, Sleeping Music, Sleep Meditation, ☯159",
+        "description": "8 Hour Deep Sleep Music: Delta Waves, Relaxing Music Sleep, Sleeping Music, Sleep Meditation, ☯159 - YellowBrickCinema's Sleep Music is the perfect ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/txQ6t4yPIM0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/txQ6t4yPIM0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/txQ6t4yPIM0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Yellow Brick Cinema - Relaxing Music",
+        "liveBroadcastContent": "none",
+        "publishTime": "2014-06-22T17:50:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZOQOQAJrP2j3n0gUgCo0ahvy-vM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rCSCPujLs14"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-24T06:09:16Z",
+        "channelId": "UCc8Bs8UVtHxtVnAbZ0i9VVA",
+        "title": "[Try Listening for 3 Minutes] FALL ASLEEP FAST | DEEP SLEEP RELAXING MUSIC",
+        "description": "Sleeping Music | Music For Sleep | Sleep Meditation | Sleeping Songs | Music For Sleeping And Deep Relaxation | Relaxing Music \"Quiet The Mind And The ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rCSCPujLs14/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rCSCPujLs14/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rCSCPujLs14/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Nova Relaxing Music",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-05-24T06:09:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "QuRPPJDmXqt0Gtk35DV0rCVyA9k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5H_kiCyo0Bs"
+      },
+      "snippet": {
+        "publishedAt": "2016-01-03T23:19:55Z",
+        "channelId": "UCb_kshGodseYhLPcDtxWv5w",
+        "title": "Deep Sleep Music for Stress Relief: Healing Delta Binaural Beats for Brain Power",
+        "description": "Meditation Relax Music Channel presents Stress Relief Relaxing Music. Deep Sleep Delta Waves Background for Meditation, Study, Yoga. This cosmic and ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5H_kiCyo0Bs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5H_kiCyo0Bs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5H_kiCyo0Bs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Meditation Relax Music",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-01-03T23:19:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Dz0OODVb0kSGjXK45HnM8uVRL9E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DWcJFNfaw9c"
+      },
+      "snippet": {
+        "publishedAt": "2020-02-25T19:00:14Z",
+        "channelId": "UCSJ4gkVC6NrvII8umztf0Ow",
+        "title": "lofi hip hop radio - beats to sleep/chill to",
+        "description": "Welcome to the sleepy lofi hip hop radio. This playlist contains the smoothest lofi hip hop beats, perfect to help you chill or fall asleep Listen to the playlist on ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DWcJFNfaw9c/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DWcJFNfaw9c/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DWcJFNfaw9c/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ChilledCow",
+        "liveBroadcastContent": "live",
+        "publishTime": "2020-02-25T19:00:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ab2lOAxl_u8kTYBVUuHYFv3skMg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xQ6xgDI7Whc"
+      },
+      "snippet": {
+        "publishedAt": "2012-11-16T17:40:05Z",
+        "channelId": "UCSyNIDWAM9cRzkn7Uz4IwTw",
+        "title": "Sleep Music Delta Waves: Relaxing Music to Help you Sleep, Deep Sleep, Inner Peace",
+        "description": "https://itunes.apple.com/us/album/zen-music-chakra-balancing/id597782173 Sleep Music Delta Waves: Relaxing Music to Help you Sleep, Deep Sleep, Inner ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xQ6xgDI7Whc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xQ6xgDI7Whc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xQ6xgDI7Whc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MeditationRelaxClub - Sleep Music & Mindfulness",
+        "liveBroadcastContent": "none",
+        "publishTime": "2012-11-16T17:40:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HzIiTD7DLgQSrzyHhJzBF1TBesE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_Ws9QvOVJeg"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-19T22:03:53Z",
+        "channelId": "UCb_kshGodseYhLPcDtxWv5w",
+        "title": "DEEP SLEEP in 5 MINUTES: Relaxing Music • Peaceful Sleep Music • Calming Music • Stress Relief",
+        "description": "Meditation Relax Music presents Deep Music to fall asleep fast. Our beautiful deep sleep music is peaceful calming music, specially created as stress relief ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_Ws9QvOVJeg/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_Ws9QvOVJeg/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_Ws9QvOVJeg/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Meditation Relax Music",
+        "liveBroadcastContent": "live",
+        "publishTime": "2020-11-19T22:03:53Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ut_ycF6LKGKtHJGouGYTBRuNjD0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SZnPyJ9DzpA"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-17T01:56:00Z",
+        "channelId": "UCwobzUc3z-0PrFpoRxNszXQ",
+        "title": "🔴 Deep Sleep Music 24/7, Relaxation Music, Insomnia, Meditation, Sleeping Music, Spa, Study, Sleep",
+        "description": "Get the new Yellow Brick Cinema iOS app for a 7-day FREE trial: https://apple.co/30uHqHe Deep Sleep Music 24/7, Relaxation Music, Insomnia, Meditation, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SZnPyJ9DzpA/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SZnPyJ9DzpA/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SZnPyJ9DzpA/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Yellow Brick Cinema - Relaxing Music",
+        "liveBroadcastContent": "live",
+        "publishTime": "2020-11-17T01:56:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kqrJI65os1uTT0Icud4b_DPiuwg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nloclfrxvFM"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-18T01:59:11Z",
+        "channelId": "UCwobzUc3z-0PrFpoRxNszXQ",
+        "title": "🔴 Deep Sleep Music 24/7, Sleeping Music, Insomnia, Meditation Music, Yoga, Spa, Study Music, Sleep",
+        "description": "Get the new Yellow Brick Cinema iOS app for a 7-day FREE trial: https://apple.co/30uHqHe Deep Sleep Music 24/7, Sleeping Music, Insomnia, Meditation Music, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nloclfrxvFM/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nloclfrxvFM/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nloclfrxvFM/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Yellow Brick Cinema - Relaxing Music",
+        "liveBroadcastContent": "live",
+        "publishTime": "2020-11-18T01:59:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oVu_oYQS8MA71cXwEgr_zXbG-zA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AMNyQds2ABQ"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-09T00:02:21Z",
+        "channelId": "UCNjGqISO6V2WFpOFWPC8pIw",
+        "title": "All You Need To Fall Asleep - Ocean Sounds For Deep Sleeping With A Dark Screen And Rolling Waves",
+        "description": "Try these ocean sounds for deep sleeping tonight. The dark screen will not disturb your sleep and the waves will create a peaceful relaxing atmosphere.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AMNyQds2ABQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AMNyQds2ABQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AMNyQds2ABQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Naturaleza Viva - Sonidos y Paisajes Increíbles",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-09T00:02:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "31VXKoyBWsqaf4xi4OeVRQ-Od40",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xsfyb1pStdw"
+      },
+      "snippet": {
+        "publishedAt": "2019-10-24T21:40:04Z",
+        "channelId": "UCJkWqlhR1-tJpygPdylMl8A",
+        "title": "The DEEPEST Healing Sleep | 3.2Hz Delta Brain Waves | REM Sleep Music - Binaural Beats",
+        "description": "Deeply relaxing Binaural Beats Brainwave Music for healing REM Sleep, Meditation and Relaxation. The soothing frequency combination generates Binaural ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xsfyb1pStdw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xsfyb1pStdw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xsfyb1pStdw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SleepTube - Hypnotic Relaxation",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-10-24T21:40:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AhdtQbFdMhwT7FV2pclw26Zsro8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5MuIMqhT8DM"
+      },
+      "snippet": {
+        "publishedAt": "2019-06-03T15:27:56Z",
+        "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+        "title": "Sleep is your superpower | Matt Walker",
+        "description": "Sleep is your life-support system and Mother Nature's best effort yet at immortality, says sleep scientist Matt Walker. In this deep dive into the science of slumber, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5MuIMqhT8DM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5MuIMqhT8DM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5MuIMqhT8DM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "TED",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-06-03T15:27:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wpQXGa9tCkTaO1g6kQxBHcUMxdo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pItQVMbYwVE"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-15T01:56:31Z",
+        "channelId": "UCwobzUc3z-0PrFpoRxNszXQ",
+        "title": "🔴 Deep Sleep Music 24/7, Insomnia, Sleeping Music, Spa, Meditation Music,  Yoga, Study Music, Sleep",
+        "description": "Get the new Yellow Brick Cinema iOS app for a 7-day FREE trial: https://apple.co/30uHqHe Deep Sleep Music 24/7, Insomnia, Sleeping Music, Spa, Meditation ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pItQVMbYwVE/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pItQVMbYwVE/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pItQVMbYwVE/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Yellow Brick Cinema - Relaxing Music",
+        "liveBroadcastContent": "live",
+        "publishTime": "2020-11-15T01:56:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yaC1RZrs8_S8_1FJ3WjydheahE8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7zspBIuW7I0"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-19T01:59:56Z",
+        "channelId": "UCwobzUc3z-0PrFpoRxNszXQ",
+        "title": "🔴 Relaxing Sleep Music 24/7, Calm Music, Sleep Meditation, Healing Music, Yoga, Study Music, Sleep",
+        "description": "Get the new Yellow Brick Cinema iOS app for a 7-day FREE trial: https://apple.co/30uHqHe Relaxing Sleep Music 24/7, Calm Music, Sleep Meditation, Healing ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7zspBIuW7I0/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7zspBIuW7I0/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7zspBIuW7I0/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Yellow Brick Cinema - Relaxing Music",
+        "liveBroadcastContent": "live",
+        "publishTime": "2020-11-19T01:59:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YceNTMeFANJcODKG87-EgGK-1w8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "v4pi1LxuDHc"
+      },
+      "snippet": {
+        "publishedAt": "2016-11-17T14:00:05Z",
+        "channelId": "UCxjbV_Qr9gByQm1r8FV5FCA",
+        "title": "The Lumineers - Sleep On The Floor (Official Video)",
+        "description": "Check out the official music video for \"Sleep On The Floor\" by the Lumineers Cleopatra is the brand new album from The Lumineers Order on the Official Store: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/v4pi1LxuDHc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/v4pi1LxuDHc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/v4pi1LxuDHc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "LumineersVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-11-17T14:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2PEMOuiDYML5WpRhf5NaEvgb-Wg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bP9gMpl1gyQ"
+      },
+      "snippet": {
+        "publishedAt": "2020-04-11T14:15:48Z",
+        "channelId": "UCUZNK80DemBN3kyxusDLwrA",
+        "title": "Relaxing Sleep Music + Insomnia - Stress Relief, Relaxing Music, Deep Sleeping Music",
+        "description": "Relaxing Sleep Music + Insomnia - Stress Relief, Relaxing Music, Deep Sleeping Music ------------------------------------------------------------------------------ Credits: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bP9gMpl1gyQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bP9gMpl1gyQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bP9gMpl1gyQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Soul of Wind",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-04-11T14:15:48Z"
+      }
+    }
+  ]
+}
