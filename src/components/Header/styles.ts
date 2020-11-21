@@ -14,6 +14,10 @@ export const S = {
     width: 100%;
     max-width: 360px;
     margin: 0 auto;
+
+    @media (max-width: 480px) {
+      max-width: 72%;
+    }
   `,
   SearchInput: styled.input`
     color: ${white};

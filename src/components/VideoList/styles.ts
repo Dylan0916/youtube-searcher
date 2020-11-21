@@ -10,5 +10,10 @@ export const S = {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
+
+    @media (max-width: 480px) {
+      grid-template-columns: repeat(2, 1fr);
+      padding: 0 10px;
+    }
   `,
 };
