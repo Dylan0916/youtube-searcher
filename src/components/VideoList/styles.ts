@@ -5,6 +5,8 @@ export const S = {
     width: 100%;
     max-width: 1080px;
     margin: 5px auto 10px;
+  `,
+  ListWrapper: styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;

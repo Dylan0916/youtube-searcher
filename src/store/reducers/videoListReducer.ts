@@ -2,6 +2,7 @@ import produce from 'immer';
 import { getType } from 'typesafe-actions';
 
 import { uniqueArray } from '../../utils/arrayHelpers';
+import { ChangePagePayload } from '../actions/changePageAction';
 import { GetVideoListSuccessPayload } from '../actions/getVideoListAction';
 import { actionsList } from '../rootAction';
 
@@ -13,7 +14,7 @@ interface State {
   hasError: boolean;
 }
 
-const { getVideoListAction } = actionsList;
+const { getVideoListAction, changePageAction } = actionsList;
 const INIT_STATE: State = {
   videoList: [],
   page: 1,
@@ -53,6 +54,13 @@ export const videoListReducer = produce((draft: State, action) => {
       draft.isLoading = false;
       draft.hasError = true;
       draft.error = error;
+      break;
+    }
+
+    case getType(changePageAction): {
+      const { page } = action.payload as ChangePagePayload;
+
+      draft.page = page;
       break;
     }
     default: {
