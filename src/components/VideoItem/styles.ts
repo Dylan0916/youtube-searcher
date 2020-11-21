@@ -8,8 +8,8 @@ export const S = {
     overflow: hidden;
   `,
   VideoImage: styled.img`
-    width: 300px;
-    height: 200px;
+    width: 100%;
+    object-fit: cover;
   `,
   VideoTitle: styled.p`
     color: ${textColor};
