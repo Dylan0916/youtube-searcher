@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useState } from 'react';
+import React, { ChangeEvent, KeyboardEvent, useState } from 'react';
 
 import {
   GetVideoListPayload,
@@ -14,12 +14,18 @@ function Header() {
   const [queryText, setQueryText] = useState('');
   const getVideoList: GetVideoList = useActions(getVideoListAction.request);
 
-  const onInputChange = (e: ChangeEvent<HTMLInputElement>) => {
-    setQueryText(e.target.value);
-  };
-
   const onSubmit = () => {
     getVideoList({ page: 1, queryText });
+  };
+
+  const onInputKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter') {
+      onSubmit();
+    }
+  };
+
+  const onInputChange = (e: ChangeEvent<HTMLInputElement>) => {
+    setQueryText(e.target.value);
   };
 
   return (
@@ -29,6 +35,7 @@ function Header() {
           type="text"
           placeholder="Search..."
           value={queryText}
+          onKeyDown={onInputKeyDown}
           onChange={onInputChange}
         />
         <S.SearchButton src={IconSearch} onClick={onSubmit} />
