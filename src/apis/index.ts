@@ -1,10 +1,10 @@
 import axios from 'axios';
 
-import { API_KEY } from '../constants/apiKey';
 import { GetVideoListResponse } from '../types/getVideoList';
 
 const YOUTUBE_API = 'https://www.googleapis.com/youtube/v3';
 const VIDEO_MAX = 30;
+const { REACT_APP_API_KEY: API_KEY } = process.env;
 
 interface GetVideos {
   queryText: string;
