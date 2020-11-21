@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 
-import { RootState } from '../../store/rootReducer';
+import { makeVideoDetailById } from '../../store/selectors/VideoDetailSelector';
 import { S } from './styles';
 
 interface Props {
@@ -9,15 +9,14 @@ interface Props {
 }
 
 function VideoItem({ id }: Readonly<Props>) {
-  const videoDetail = useSelector(
-    (state: RootState) => state.videoDetailReducer.videoDetail
-  );
-  const title = videoDetail[id]?.title;
-  const image = videoDetail[id]?.thumbnails.medium.url;
+  const videoDetail = useSelector(makeVideoDetailById(id));
 
-  if (!title || !image) {
+  if (Object.keys(videoDetail).length === 0) {
     return null;
   }
+
+  const title = videoDetail.title;
+  const image = videoDetail.thumbnails.medium.url;
 
   return (
     <S.Container>
