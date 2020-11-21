@@ -3,12 +3,14 @@ import { createAsyncAction } from 'typesafe-actions';
 import { GetVideoListResponse } from '../../types/getVideoList';
 
 export interface GetVideoListPayload {
-  page: number;
   queryText: string;
+  loadingType?: string;
+  nextPageToken?: string;
 }
 
 export interface GetVideoListSuccessPayload {
   data: GetVideoListResponse;
+  loadingType?: string;
 }
 
 export interface GetVideoListFailurePayload {

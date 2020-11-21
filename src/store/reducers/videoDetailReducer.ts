@@ -17,9 +17,12 @@ const INIT_STATE: State = {
 export const videoDetailReducer = produce((draft, action) => {
   switch (action.type) {
     case getType(getVideoListAction.success): {
-      const { data } = action.payload as GetVideoListSuccessPayload;
+      const {
+        data,
+        loadingType,
+      } = action.payload as GetVideoListSuccessPayload;
       const items = data?.items || [];
-      const newData = items.reduce((acc, cur) => {
+      const formatData = items.reduce((acc, cur) => {
         const videoId = cur.id.videoId;
 
         return {
@@ -27,6 +30,10 @@ export const videoDetailReducer = produce((draft, action) => {
           [videoId]: cur.snippet,
         };
       }, {});
+      const newData =
+        loadingType === 'loadMore'
+          ? Object.assign(draft.videoDetail, formatData)
+          : formatData;
 
       draft.videoDetail = newData;
       break;

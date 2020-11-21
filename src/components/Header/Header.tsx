@@ -15,7 +15,7 @@ function Header() {
   const getVideoList: GetVideoList = useActions(getVideoListAction.request);
 
   const onSubmit = () => {
-    getVideoList({ page: 1, queryText });
+    getVideoList({ queryText });
   };
 
   const onInputKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {

@@ -1,11 +1,11 @@
 import { AxiosError } from 'axios';
 import { ofType } from 'redux-observable';
-import { Observable } from 'rxjs';
-import { switchMap } from 'rxjs/operators';
+import { Observable, from, of } from 'rxjs';
+import { catchError, concatMap, switchMap } from 'rxjs/operators';
 import { ActionType, getType } from 'typesafe-actions';
 
 import { getVideos } from '../../apis';
-import { actionsList } from '../rootAction';
+import { RootAction, actionsList } from '../rootAction';
 
 const { getVideoListAction } = actionsList;
 
@@ -15,11 +15,34 @@ const getVideoListEpic = (action$: Observable<RequestActionType>) => {
   return action$.pipe(
     ofType(getType(getVideoListAction.request)),
     switchMap((action: RequestActionType) => {
-      const { queryText } = action.payload;
+      const { queryText, loadingType, nextPageToken } = action.payload;
 
-      return getVideos(queryText)
-        .then(resp => getVideoListAction.success({ data: resp.data }))
-        .catch((error: AxiosError) => getVideoListAction.failure({ error }));
+      return from(getVideos({ queryText, nextPageToken })).pipe(
+        concatMap(resp => {
+          const data = resp.data;
+          const resultAction: RootAction[] = [
+            getVideoListAction.success({
+              data,
+              loadingType,
+            }),
+          ];
+
+          if (loadingType !== 'loadMore') {
+            resultAction.push(
+              getVideoListAction.request({
+                queryText,
+                loadingType: 'loadMore',
+                nextPageToken: data.nextPageToken,
+              })
+            );
+          }
+
+          return resultAction;
+        }),
+        catchError((error: AxiosError) =>
+          of(getVideoListAction.failure({ error }))
+        )
+      );
     })
   );
 };

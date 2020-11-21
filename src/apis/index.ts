@@ -4,9 +4,14 @@ import { API_KEY } from '../constants/apiKey';
 import { GetVideoListResponse } from '../types/getVideoList';
 
 const YOUTUBE_API = 'https://www.googleapis.com/youtube/v3';
-const VIDEO_MAX = 20;
+const VIDEO_MAX = 30;
 
-export function getVideos(queryText: string) {
+interface GetVideos {
+  queryText: string;
+  nextPageToken?: string;
+}
+
+export function getVideos({ queryText, nextPageToken }: GetVideos) {
   return axios.get<GetVideoListResponse>(`${YOUTUBE_API}/search`, {
     params: {
       part: 'snippet',
@@ -14,6 +19,7 @@ export function getVideos(queryText: string) {
       key: API_KEY,
       type: 'video',
       maxResults: VIDEO_MAX,
+      pageToken: nextPageToken,
     },
   });
 }
