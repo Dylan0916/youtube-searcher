@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 
 import { makeVideoDetailById } from '../../store/selectors/VideoDetailSelector';
-import ItemImage from './ItemImage';
 import { S } from './styles';
 
 interface Props {
@@ -30,17 +29,21 @@ function VideoItem({ id }: Readonly<Props>) {
   const youtubeUrl = 'https://www.youtube.com';
 
   return (
-    <S.Container
-      href={`${youtubeUrl}/watch?v=${id}`}
-      onPointerOver={warmConnections}
-    >
-      <ItemImage
-        imageUrl={imageUrl}
-        youtubeUrl={youtubeUrl}
-        isPreConnected={isPreConnected}
-      />
-      <S.VideoTitle>{title}</S.VideoTitle>
-    </S.Container>
+    <>
+      {/* Link is "body-ok" element. Reference: https://html.spec.whatwg.org/multipage/links.html#body-ok */}
+      <link rel="preload" href={imageUrl} as="image" />
+      {isPreConnected && <link rel="preconnect" href={youtubeUrl} />}
+
+      <S.Container
+        href={`${youtubeUrl}/watch?v=${id}`}
+        onPointerOver={warmConnections}
+      >
+        <S.VideoImageBox>
+          <S.VideoImage src={imageUrl} loading="lazy" />
+        </S.VideoImageBox>
+        <S.VideoTitle>{title}</S.VideoTitle>
+      </S.Container>
+    </>
   );
 }
 
