@@ -6,7 +6,8 @@ const IMAGE_WIDTH = 320;
 const IMAGE_HEIGHT = 180;
 
 export const S = {
-  Container: styled.div`
+  Container: styled.a`
+    display: block;
     grid-column: span 1;
     overflow: hidden;
   `,

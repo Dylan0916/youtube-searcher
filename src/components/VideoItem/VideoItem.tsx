@@ -19,7 +19,7 @@ function VideoItem({ id }: Readonly<Props>) {
   const image = videoDetail.thumbnails.medium.url;
 
   return (
-    <S.Container>
+    <S.Container href={`https://www.youtube.com/watch?v=${id}`}>
       <S.VideoImageBox>
         <S.VideoImage src={image} />
       </S.VideoImageBox>
