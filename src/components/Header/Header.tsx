@@ -1,21 +1,16 @@
 import React, { ChangeEvent, KeyboardEvent, useState } from 'react';
-import { useSelector } from 'react-redux';
 
-import useActions from '../../hooks/useActions';
-import {
-  GetVideoListPayload,
-  getVideoListAction,
-} from '../../store/actions/getVideoListAction';
-import { makeVideoDataByKey } from '../../store/selectors/VideoListSelector';
 import IconSearch from './assets/icon-search.svg';
 import { S } from './styles';
+import { GetVideoList } from './types';
 
-type GetVideoList = (args: GetVideoListPayload) => void;
+interface Props {
+  storeQueryText: string;
+  getVideoList: GetVideoList;
+}
 
-function Header() {
-  const storeQueryText = useSelector(makeVideoDataByKey('queryText'));
+function Header({ storeQueryText, getVideoList }: Readonly<Props>) {
   const [queryText, setQueryText] = useState(storeQueryText);
-  const getVideoList: GetVideoList = useActions(getVideoListAction.request);
 
   const onSubmit = () => {
     getVideoList({ queryText });
@@ -41,7 +36,11 @@ function Header() {
           onKeyDown={onInputKeyDown}
           onChange={onInputChange}
         />
-        <S.SearchButton src={IconSearch} onClick={onSubmit} />
+        <S.SearchButton
+          src={IconSearch}
+          onClick={onSubmit}
+          data-testid="searchBtn"
+        />
       </S.SearchBarWrapper>
     </S.Container>
   );
