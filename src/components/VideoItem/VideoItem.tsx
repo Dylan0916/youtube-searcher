@@ -20,7 +20,9 @@ function VideoItem({ id }: Readonly<Props>) {
 
   return (
     <S.Container>
-      <S.VideoImage src={image} />
+      <S.VideoImageBox>
+        <S.VideoImage src={image} />
+      </S.VideoImageBox>
       <S.VideoTitle>{title}</S.VideoTitle>
     </S.Container>
   );
