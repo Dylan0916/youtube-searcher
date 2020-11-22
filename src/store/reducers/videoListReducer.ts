@@ -7,6 +7,7 @@ import { GetVideoListSuccessPayload } from '../actions/getVideoListAction';
 import { actionsList } from '../rootAction';
 
 interface State {
+  queryText: string;
   videoList: string[];
   page: number;
   isLoading: boolean;
@@ -16,6 +17,7 @@ interface State {
 
 const { getVideoListAction, changePageAction } = actionsList;
 const INIT_STATE: State = {
+  queryText: '',
   videoList: [],
   page: 1,
   isLoading: false,
@@ -26,6 +28,9 @@ const INIT_STATE: State = {
 export const videoListReducer = produce((draft: State, action) => {
   switch (action.type) {
     case getType(getVideoListAction.request): {
+      const { queryText } = action.payload;
+
+      draft.queryText = queryText;
       draft.isLoading = true;
       break;
     }
