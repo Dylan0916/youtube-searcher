@@ -1,9 +1,9 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 
+import useActions from '../../hooks/useActions';
 import { actionsList } from '../../store/rootAction';
 import { makeVideoDataByKey } from '../../store/selectors/VideoListSelector';
-import { useActions } from '../../utils/hookHelpers';
 import { S } from './styles';
 
 const { changePageAction } = actionsList;

@@ -1,10 +1,10 @@
 import React, { ChangeEvent, KeyboardEvent, useState } from 'react';
 
+import useActions from '../../hooks/useActions';
 import {
   GetVideoListPayload,
   getVideoListAction,
 } from '../../store/actions/getVideoListAction';
-import { useActions } from '../../utils/hookHelpers';
 import IconSearch from './assets/icon-search.svg';
 import { S } from './styles';
 
