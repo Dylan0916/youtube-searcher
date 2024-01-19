@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import { useSelector } from 'react-redux';
 
 import useActions from '../../hooks/useActions';
@@ -14,7 +14,7 @@ interface Props {
 
 type ChangePage = ({ page }: { page: number }) => void;
 
-function PageBtn({ page }: Props) {
+const PageBtn: FC<Props> = ({ page }) => {
   const changePage: ChangePage = useActions(changePageAction);
   const currentPage = useSelector(makeVideoDataByKey('page'));
   const isActive = currentPage === page;
